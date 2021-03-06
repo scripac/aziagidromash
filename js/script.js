@@ -7,13 +7,6 @@ $(document).ready(function () {
   }, false);
 
 
-  // Load page on window orientation
-
-  window.addEventListener("orientationchange", function() {
-    location.reload();
-  }, false);
-
-
   // Hamburger
 
   function hamburgerClose() {
